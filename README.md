@@ -14,8 +14,14 @@ Simple Discord bot that creates sassy AI summaries of your server's daily chaos 
 2. **Set up Discord Bot:**
    - Go to Discord Developer Portal
    - Create application/bot
-   - Enable "Message Content Intent" 
-   - Copy bot token
+   - Navigate to Bot tab
+   - Enable "Message Content Intent" (under Privileged Gateway Intents)
+   - Copy bot token (click "Reset Token" under Token header)
+   - Navigate to OAuth2 tab
+   - Select these scopes: bot, applications.commands
+   - Select these bot permissions: View Channels, Send Messages, Read Message History
+   - Copy the Generated URL towards bottom of page
+   - Paste that into web broswer and invite bot to desired server
 
 3. **Get OpenAI API key** from platform.openai.com
 
